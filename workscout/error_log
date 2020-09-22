@@ -1,0 +1,4 @@
+[10-Jun-2020 17:49:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Kirki' not found in /home/jobsgoldindustry/public_html/wp-content/themes/workscout/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/jobsgoldindustry/public_html/wp-content/themes/workscout/index.php on line 16

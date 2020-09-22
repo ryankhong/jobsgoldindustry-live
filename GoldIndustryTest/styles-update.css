@@ -1,0 +1,133 @@
+.page-template-page-profile form h4{
+	margin-top: 50px;
+}
+
+
+body.page:not(.page-template-template-jobs) ul.job_listings{
+    margin: 0;
+}
+body.page:not(.page-template-template-jobs) ul.job_listings li{
+    list-style: none;
+}
+.page:not(.page-template-template-jobs) ul.job_listings li a.job_listing {
+    display: flex;
+    align-items: center;
+}
+.page:not(.page-template-template-jobs) ul.job_listings li a.job_listing .listing-title{
+    width: calc(100% - 190px);
+}
+.page:not(.page-template-template-jobs) ul.job_listings li a.job_listing .listing-logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-right: 30px;
+}
+.page:not(.page-template-template-jobs) ul.job_listings li a.job_listing .listing-logo img{
+    padding: 0;
+    margin: 0;
+    float: none;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+.header-notifications-trigger .user-avatar-title b {
+    max-width: 80px;
+}
+.new-header #header-container #header .left-side {
+    padding-right: 175px;
+}
+.status.success {
+    max-width: 1070px;
+    margin: auto;
+    padding: 10px 35px;
+    background-color: #c7fbc7;
+}
+.new-header .transparent-header .header-notifications .header-notifications-trigger a {
+    color: #333;
+}
+.header-widget .user-menu .header-notifications-dropdown {
+    background-color: #fff;
+}
+.header-widget .user-menu .header-notifications-dropdown:before {
+    border-bottom-color: #fff;
+}
+.new-header #header #navigation ul ul::after {
+    border-bottom-color: #fff;
+}
+.new-header #header .header-widget {
+    padding-right: 10px;
+}
+.recordsLinks .dc-btn-wide {
+    background-color: #c9ba7b;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 14px 50px;
+    font-size: 15px;
+}
+.recordsLinks {
+    text-align: center;
+}
+#applicationRecordsTable td {
+    padding: 15px 16px;
+}
+.new-header #navigation ul ul li.menu-item {
+    width: 250px;
+}
+.intro-banner .select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-weight: 400 !important;
+    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.select2-container {
+    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15.5px;
+}
+
+
+
+
+@media screen and ( max-width: 767px ) {
+
+    #footer .thirteen.columns {
+        text-align: center;
+    }
+    .footer-widget.widget_nav_menu #menu-footer-other li a {
+        padding: 9px 0;
+        width: 100%;
+    }
+    .footer-widget.widget_nav_menu #menu-footer-other li::before {
+        display: none;
+    }
+    .intro-banner-search-form .intro-search-button .button {
+        width: 100%;
+    }
+    .intro-banner-search-form .intro-search-button {
+        margin-right: 0;
+    }
+    .new-header #logo_nh {
+        width: 160px;
+    }
+    .new-header #header #logo_nh img {
+        height: auto;
+    }
+
+}
+
+/****** Internet Explorer 10 and above ****/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: -58px;
+    }
+    .slick-prev {
+        right: 28px;
+        left: initial;
+    }
+    .listing-icons.jobsMetaWrap {
+        display: inline-block !important;
+    }
+
+}
